@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-x&v@0=w8i@4ew+0--ma9&ur62he-h0*n%^27d7+8tl+qpq0ozp
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['/home/utsav23/Team_API','*']
 
 
 # Application definition
