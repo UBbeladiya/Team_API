@@ -8,7 +8,7 @@ import random
 def firebase_data(addrress,date,gamename):
     try:
         # initialize Firebase Admin SDK credentials
-        path = "khelmahakumbh-91709-firebase-adminsdk-zcf2z-8cb59227c0.json"
+        path = "/home/utsav23/Team_API/khelmahakumbh-91709-firebase-adminsdk-zcf2z-8cb59227c0.json"
         cred = credentials.Certificate(path)
         firebase_admin.initialize_app(cred)
 
